@@ -41,3 +41,4 @@ printf("Cost Price: %f",cost_price);
 return 0;
 
 }
+output
