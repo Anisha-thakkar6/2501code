@@ -1,0 +1,43 @@
+1. Gross Salary
+Code:
+#include <stdio.h>
+
+int main(){
+int d_per=40, h_per=20;
+float base_sal, house_all, dear_all, gross_sal;
+printf("Enter Basic Salary: ");
+scanf("%f",&base_sal);
+dear_all= (d_per*base_sal)/100;
+house_all= (h_per*base_sal)/100;
+gross_sal= base_sal+dear_all+house_all;
+printf("gross salary: %4.6f",gross_sal);
+return 0;
+
+}
+
+2. Distance Conversion
+code:
+#include<stdio.h>
+
+int main(){
+float km;
+printf("enter distance in km: ");
+scanf("%f",&km);
+printf("feet: %f \n Meters: %f \n Inches: %f \n cm: %f", km*3280.84,km*1000.00,km*39370.10, km*100000);
+return 0;
+}
+
+3. Calculate Cost Price
+Code:
+#include <stdio.h>
+
+int main(){
+int n;
+float selling_price, profit, cost_price;
+printf("Enter number items sold: \n Total selling price: \n Enter profit earned: ");
+scanf("%d%f%f",&n,&selling_price, &profit);
+cost_price= (selling_price - profit)/n;
+printf("Cost Price: %f",cost_price);
+return 0;
+
+}
